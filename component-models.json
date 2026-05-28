@@ -562,6 +562,24 @@
     ]
   },
   {
+    "id": "products-carousel",
+    "fields": [
+      {
+        "component": "text",
+        "name": "skus",
+        "label": "Product SKUs",
+        "description": "Comma-separated list of product SKUs to display (e.g. 24-MB01, 24-MB02)",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "description": "Optional heading displayed above the carousel"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
